@@ -1,0 +1,10 @@
+{
+  "name": "DuasDotMobi",
+  "description": "Alexa skill for Duas.mobi",
+  "runtime": "nodejs6.10",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::678636811567:role/service-role/lambda_basic_execution",
+  "region": "us-east-1",
+  "handler": "index.handler"
+}
