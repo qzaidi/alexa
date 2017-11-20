@@ -1,0 +1,27 @@
+{
+  "languageModel": {
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "GetNewFactIntent",
+        "samples": [
+          "Give me a quote",
+          "Tell me something"
+        ],
+        "slots": []
+      }
+    ],
+    "invocationName": "nahjul balagha"
+  }
+}

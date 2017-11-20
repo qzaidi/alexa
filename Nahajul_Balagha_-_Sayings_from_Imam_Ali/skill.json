@@ -1,0 +1,77 @@
+{
+  "skillManifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Timeless sayings of Imam Ali ibn Abi Talib (as), as compiled in Nahajul Balagha, the Peak of Eloquence",
+          "examplePhrases": [
+            "Alexa, Open Nahjul Balagha",
+            "Alexa, Tell me something from Nahjul Balagha",
+            "Alexa, Give me a quote from Nahjul Balagha"
+          ],
+          "keywords": [
+            "Ali",
+            "Islam",
+            "Motivation",
+            "Quotes",
+            "Shia",
+            "Wisdom",
+            "Najhul",
+            "Balagha"
+          ],
+          "name": "Nahajul Balagha - Sayings from Imam Ali",
+          "smallIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.a5698149-debd-4d04-8585-053201d4554e/images/eyJkIjoiZDJucDg1cThFaVo1RWhnMkpDWGxIcHAxVHhHVk9KNy9pSE5EL2o4VUlLQks4MG9vSlJVTkU0LzVCNnJzRjVBckNRVzFST3dFS3RXbCtKQk9Va1JnTHNDbEw1b2srQ2xSalVoTEZKRFE2elRPOXBJWEl4TEllZ2RiVDMvelhTcmoiLCJpdiI6IkF0NURndDlmb2p3T1V5aEFmd0tPS0E9PSIsInYiOjF9",
+          "description": "Referred by Prophet Muhammad as the “gate to the city of knowledge.”, this skill contains quotes from Imam Ali, compiled in the literary masterpiece Nahjul Balagha.\n\nFrom one of Islam's greatest saints, its full of everyday life lessons and motivational advice that appeal to everyone, not just Muslims.\n\nAccompanying cards include the original arabic, as no translation can capture the eloquence of the original text.",
+          "largeIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.a5698149-debd-4d04-8585-053201d4554e/images/eyJkIjoiRXhXZjdoaVVlWnFVQWRTRVBnbGZ5a3JxQTZ3L2Z2QzllYlpDOExIeEZidDlnQ3pHcVhpRlEzemZKNUlIcnB4V1BsdU84VXZRRTM5N3V1ZWdXR0RJa05vcHMwWFNmbjVLYmNQTHdBcS93cS96bkhNWjhEY1JoMisxSjJxUTduVjZTTkN6dTBoNE9DdGhpcUFkbU0vajZ3PT0iLCJpdiI6IjdJR0Y2TmZGalRVd1BISHAvNmlqbFE9PSIsInYiOjF9"
+        },
+        "en-IN": {
+          "summary": "Timeless sayings of Imam Ali ibn Abi Talib (as), as compiled in Nahajul Balagha, the Peak of Eloquence",
+          "examplePhrases": [
+            "Alexa, Open Nahjul Balagha",
+            "Alexa, Tell me something from Nahjul Balagha",
+            "Alexa, Give me a quote from Nahjul Balagha"
+          ],
+          "keywords": [
+            "Ali",
+            "Islam",
+            "Motivation",
+            "Quotes",
+            "Shia",
+            "Wisdom",
+            "Najhul",
+            "Balagha"
+          ],
+          "name": "Nahajul Balagha - Sayings from Imam Ali",
+          "smallIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.a5698149-debd-4d04-8585-053201d4554e/images/eyJkIjoiSTNDbHlJQS9VRnQxbUJFOU52eU96QXlxZVN3enZxTkxFampvVTQyWE9RTDA5YjdzN0REbFBabW90L2c0M3dFMUVIQTA3TEJ1QmlRQnMzOWpUTldOUzBWQkZjcHJOdi9OVVZVME9GYnBMT3lmR2MxU0VCeEVXcERWNGNJU0Z0ZVQiLCJpdiI6Ik56SkVYNGYxSkJ3MUJnZ0FOWFk3bkE9PSIsInYiOjF9",
+          "description": "Referred by Prophet Muhammad as the “gate to the city of knowledge.”, this skill contains quotes from Imam Ali, compiled in the literary masterpiece Nahjul Balagha.\n\nFrom one of Islam's greatest saints, its full of everyday life lessons and motivational advice that appeal to everyone, not just Muslims.\n\nAccompanying cards include the original arabic, as no translation can capture the eloquence of the original text.",
+          "largeIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.a5698149-debd-4d04-8585-053201d4554e/images/eyJkIjoiSThaTi9MVmNhdlRnU1czSUx1MHlBS1hmVDZEa0lLZEVxaGdSR0svVG5XWVpVQ0hTZkF4eGV4cXlNbzgzOUdvY3grN1Q5WWY1RWlSMVFBSTJFcmVkOEVaNUd1RDM0cyttcTJrM1RSS2ZkUEpEWmJYakFHeUxFYTd0aWgyM3hjMUU0ZmpWZ1dWMkxEV2xyNFI4aVcvWXNBPT0iLCJpdiI6InZTRnVMS0hTU2x2QWhjbW9ycGdWaUE9PSIsInYiOjF9"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "This was built using the Fact Sample.",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [],
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "privacyPolicyUrl": ""
+        }
+      },
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
