@@ -1,0 +1,25 @@
+{
+  "skillManifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-IN": {
+          "name": "Al Furqan"
+        }
+      },
+      "isAvailableWorldwide": true
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}

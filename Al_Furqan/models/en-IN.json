@@ -1,0 +1,93 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "Quran Majeed",
+      "intents": [
+        {
+          "name": "PlayAudio",
+          "slots": [
+            {
+              "name": "SurahQuery",
+              "type": "LIST_OF_CHAPTERS"
+            },
+            {
+              "name": "ChapterNumQuery",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "to play Chapter of {SurahQuery}",
+            "to play Surahe {SurahQuery}",
+            "to recite Surahe {SurahQuery}",
+            "to recite Chapter {ChapterNumQuery}"
+          ]
+        },
+        {
+          "name": "AMAZON.PauseIntent"
+        },
+        {
+          "name": "AMAZON.ResumeIntent"
+        },
+        {
+          "name": "AMAZON.NextIntent"
+        },
+        {
+          "name": "AMAZON.PreviousIntent"
+        },
+        {
+          "name": "AMAZON.HelpIntent"
+        },
+        {
+          "name": "AMAZON.StopIntent"
+        },
+        {
+          "name": "AMAZON.CancelIntent"
+        },
+        {
+          "name": "AMAZON.StartOverIntent"
+        },
+        {
+          "name": "AMAZON.YesIntent"
+        },
+        {
+          "name": "AMAZON.NoIntent"
+        }
+      ],
+      "types": [
+        {
+          "name": "LIST_OF_CHAPTERS",
+          "values": [
+            {
+              "id": null,
+              "name": {
+                "value": "Yaseen",
+                "synonyms": []
+              }
+            },
+            {
+              "id": null,
+              "name": {
+                "value": "fateh ha",
+                "synonyms": [ "Hamd" ]
+              }
+            },
+            {
+              "id": null,
+              "name": {
+                "value": "Fateh",
+                "synonyms": []
+              }
+            },
+            {
+              "id": null,
+              "name": {
+                "value": "Mulk",
+                "synonyms": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
